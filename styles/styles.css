@@ -1,0 +1,45 @@
+h1{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-color: aquamarine;
+}
+.logo{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 10000px;
+}
+.frey{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.jakob
+{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.hielo{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.playita{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+
+.refugios{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.refugios a{
+    margin: 0 20px;
+
+}
