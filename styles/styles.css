@@ -1,36 +1,52 @@
-h1{
-    color: aliceblue;
-    text-align: center;
-    text-decoration: underline;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(172, 252, 225);
+}
+.container{
+    height: 100vh;
+    background-color: rgb(172, 252, 225);
+    display: grid;
+    grid-template-columns:none;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+header{
+}
+h1{
+text-align: center;
 }
 .logo{
-    height: 10vh;
-    width: 5vw;
-    border-radius: 10000px;
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
 }
 .frey{
-    height: 10vh;
-    width: 5vw;
-    border-radius: 150px;
+    height: 20vh;
+    width: 10vw;
+    border-radius: 100px;
+    padding:1vh
 }
 .jakob
 {
-    height: 10vh;
-    width: 5vw;
+    height: 20vh;
+    width: 10vw;
     border-radius: 150px;
+    padding: 1vh;
 }
 .hielo{
-    height: 10vh;
-    width: 5vw;
+    height: 20vh;
+    width: 10vw;
     border-radius: 150px;
+    padding: 1vh;
 }
-.playita{
-    height: 10vh;
-    width: 5vw;
+.casa{
+    height: 20vh;
+    width: 10vw;
     border-radius: 150px;
+    padding: 1vh;
 }
 
 .refugios{
@@ -39,7 +55,293 @@ body{
     
 }
 
-.refugios a{
-    margin: 0 20px;
 
+
+.accordion-button{
+    background-color: rgb(84, 208, 230);
+}
+
+.accordion-item {
+    background-color: rgb(204, 204, 228)
+}
+.facebook{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.x{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50px;
+}
+.mail{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.instagram{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around
+}
+.infofrey{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.infojakov{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.infohielo{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.infocasa{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.item{
+    height: 100%;
+    width: 100%;
+}
+.containerIMAGENES{
+    display: grid;
+    grid-template-areas:
+    "a a b b"
+    "c c d d"
+    "e e f f"
+    "g g h h";
+grid-template-areas: 
+    "i i j j"
+    "k k l l"
+    "m m n n"
+    "ñ ñ o o ";
+grid-template-areas:
+    "p p q q"
+    "r r s s"
+    "t t u u"
+    "v v w w";
+grid-template-areas: 
+    "a1 a1 b1 b1"
+    "c1 c1 d1 d1"
+    "e1 e1 f1 f1"
+    "g1 g1 h1 h1";
+
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    padding: 0 0 0 0 ;
+}
+
+.a{
+    grid-area: a;
+    height: 50vh;
+    width: 45vw;
+    
+}
+.b{
+    grid-area: b;
+    height: 50vh;
+    width: 50vw;
+}
+.c{
+    grid-area: c;
+    height: 50vh;
+    width: 50vw;
+}
+.d{
+    grid-area: d;
+    height: 50vh;
+    width: 45vw;
+}
+.e{grid-area: e;
+    height: 50vh;
+    width: 50vw;
+}
+.f{grid-area: f;
+    height: 50vh;
+    width: 45vw;
+}
+.g{grid-area: g;
+    height: 50vh;
+    width: 60vw;
+}
+.h{grid-area: h;
+    height: 50vh;
+    width: 35vw;
+    
+}
+.i{
+    grid-area: i;
+    height: 50vh;
+    width: 45vw;
+}
+.j{
+    grid-area: j;
+    height: 50vh;
+    width: 45vw;
+}
+.k{
+    grid-area: k;
+    height: 50vh;
+    width: 45vw;
+}
+.l{
+    grid-area: l;
+    height: 50vh;
+    width: 45vw;
+}
+.m{
+    grid-area: m;
+    height: 50vh;
+    width: 30vw;
+}
+.n{
+    grid-area: n;
+    height: 50vh;
+    width: 45vw;
+}
+.ñ{
+    grid-area: ñ;
+    height: 50vh;
+    width: 45vw;
+}
+.o{
+    grid-area: o;
+    height: 50vh;
+    width: 45vw;
+}
+.p{
+    grid-area: p;
+    height: 50vh;
+    width: 35vw;
+}
+.q{
+    grid-area: q;
+    height: 50vh;
+    width: 55vw;
+}
+.r{
+        grid-area: r;
+    height: 50vh;
+    width: 45vw;
+}
+.s{
+        grid-area: s;
+    height: 50vh;
+    width: 45vw;
+}
+.t{
+        grid-area: t;
+    height: 50vh;
+    width: 45vw;
+}
+.u{
+    grid-area: u;
+    height: 50vh;
+    width: 35vw;
+}
+.v{
+        grid-area: v;
+    height: 50vh;
+    width: 45vw;
+}
+.w{
+        grid-area: w;
+    height: 50vh;
+    width: 45vw;
+}
+.a1{
+    grid-area: a1;
+    height: 50vh;
+    width: 45vw;
+    
+}
+.b1{
+    grid-area: b1;
+    height: 50vh;
+    width: 50vw;
+}
+.c1{
+    grid-area: c1;
+    height: 50vh;
+    width: 50vw;
+}
+.d1{
+    grid-area: d1;
+    height: 50vh;
+    width: 45vw;
+}
+.e1{grid-area: e1;
+    height: 50vh;
+    width: 50vw;
+}
+.f1{grid-area: f1;
+    height: 50vh;
+    width: 45vw;
+}
+.g1{grid-area: g1;
+    height: 50vh;
+    width: 60vw;
+}
+.h1{grid-area: h1;
+    height: 50vh;
+    width: 35vw;
+    
+}
+.footer{
+
+}
+@media (max-width: 480px){
+    main{
+        
+        width: 100%;
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+    .a, .b ,.c ,.d ,.e ,.f ,.g ,.h{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 768px){
+    main{
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+    .a, .b ,.c ,.d ,.e ,.f ,.g ,.h{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 1200px){
+    main{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+    }
+}
+@media (max-width: 320px){
+    main{
+        
+        width: 100%;
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+    }
 }
