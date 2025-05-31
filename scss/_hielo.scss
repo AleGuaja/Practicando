@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(172, 252, 225);
+    min-height: 100vh;
+}
+.logo{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+}
+.frey{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 100px;
+    padding:1vh
+}
+.jakob
+{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+.hielo{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+.casa{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+
+.facebook{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.x{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50px;
+}
+.mail{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.instagram{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around
+}
+.infohielo{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.imagenes-hielo{
+    grid-template-areas:
+    "p p q q"
+    "r r s s"
+    "t t u u"
+    "v v w w";
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+        padding: 0 0 0 0 ;
+        @include mobile{
+        padding: 2px;
+}
+}
+.p{
+    grid-area: p;
+    height: 50vh;
+    width: 35vw;
+    @include mobile{
+    padding: 2px;
+}
+}
+.q{
+    grid-area: q;
+    height: 50vh;
+    width: 55vw;
+    @include mobile{
+    padding: 2px;
+}
+}
+.r{
+        grid-area: r;
+    height: 50vh;
+    width: 45vw;
+    @include mobile{
+    padding: 2px;
+}
+}
+.s{
+        grid-area: s;
+    height: 50vh;
+    width: 45vw;
+    @include mobile{
+    padding: 2px;
+}
+}
+.t{
+        grid-area: t;
+    height: 50vh;
+    width: 45vw;
+    @include mobile{
+    padding: 2px;
+}
+}
+.u{
+    grid-area: u;
+    height: 50vh;
+    width: 35vw;
+    @include mobile{
+    padding: 2px;
+}
+}
+.v{
+        grid-area: v;
+    height: 50vh;
+    width: 45vw;
+    @include mobile{
+    padding: 2px;
+}
+}
+.w{
+        grid-area: w;
+    height: 50vh;
+    width: 45vw;
+    @include mobile{
+    padding: 2px;
+}
+}

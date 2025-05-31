@@ -1,0 +1,59 @@
+header{
+}
+h1{
+text-align: center;
+.logo{
+        height: 20vh;
+        width: 10vw;
+        border-radius: 150px;
+        @include mobile{
+            padding: 2px;
+}
+
+}
+.frey{
+        height: 20vh;
+        width: 10vw;
+        border-radius: 100px;
+        padding:1vh;
+        @include mobile{
+            padding: 2px;
+}
+}
+
+}
+.jakob
+{
+        height: 20vh;
+        width: 10vw;
+        border-radius: 150px;
+        padding: 1vh;
+        @include mobile{
+            padding: 2px;
+        }
+
+}
+.hielo{
+        height: 20vh;
+        width: 10vw;
+        border-radius: 150px;
+        padding: 1vh;
+        @include mobile{
+            padding: 2px;
+}
+
+}
+.casa{
+        height: 20vh;
+        width: 10vw;
+        border-radius: 150px;
+        padding: 1vh;
+        @include mobile{
+            padding: 2px;
+}
+
+}
+@include mobile{
+    padding: 2px;
+}
+

@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(172, 252, 225);
+    min-height: 100vh;
+}
+.logo{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+}
+.frey{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 100px;
+    padding:1vh
+}
+.jakob
+{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+.hielo{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+.casa{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+
+.facebook{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.x{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50px;
+}
+.mail{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.instagram{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around
+}
+.infocasa{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.imagenes-casa{
+    grid-template-areas: 
+    "a1 a1 b1 b1"
+    "c1 c1 d1 d1"
+    "e1 e1 f1 f1"
+    "g1 g1 h1 h1";
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+        padding: 0 0 0 0 ;
+        @include mobile{
+        padding: 2px;
+}
+}
+.a1{
+    grid-area: a1;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.b1{
+    grid-area: b1;
+    height: 50vh;
+    width: 50vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.c1{
+    grid-area: c1;
+    height: 50vh;
+    width: 50vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.d1{
+    grid-area: d1;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.e1{grid-area: e1;
+    height: 50vh;
+    width: 50vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.f1{grid-area: f1;
+    height: 50vh;
+    width: 45vw;
+            @include mobile{
+        padding: 2px;
+}
+}
+.g1{grid-area: g1;
+    height: 50vh;
+    width: 60vw;
+            @include mobile{
+        padding: 2px;
+}
+}
+.h1{grid-area: h1;
+    height: 50vh;
+    width: 35vw;
+        @include mobile{
+        padding: 2px;
+}
+}

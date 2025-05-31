@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(172, 252, 225);
+    min-height: 100vh;
+}
+.logo{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+}
+.frey{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 100px;
+    padding:1vh
+}
+.jakob
+{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+.hielo{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+.casa{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 150px;
+    padding: 1vh;
+}
+.facebook{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.x{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50px;
+}
+.mail{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.instagram{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 150px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around
+}
+.infojakob{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.imagenes-jakob{
+    grid-template-areas: 
+    "i i j j"
+    "k k l l"
+    "m m n n"
+    "ñ ñ o o ";
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+        padding: 0 0 0 0 ;
+        @include mobile{
+        padding: 2px;
+}
+}
+
+.i{
+    grid-area: i;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.j{
+    grid-area: j;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.k{
+    grid-area: k;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.l{
+    grid-area: l;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.m{
+    grid-area: m;
+    height: 50vh;
+    width: 30vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.n{
+    grid-area: n;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.ñ{
+    grid-area: ñ;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
+.o{
+    grid-area: o;
+    height: 50vh;
+    width: 45vw;
+        @include mobile{
+        padding: 2px;
+}
+}
