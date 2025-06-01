@@ -14,6 +14,26 @@ text-align: center;
     width: 10vw;
     border-radius: 150px;
 }
+.logo:hover{
+    animation: vibrate 0.5s infinite;
+}
+@keyframes vibrate{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    75%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
 .frey{
     height: 20vh;
     width: 10vw;
